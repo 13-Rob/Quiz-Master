@@ -1136,8 +1136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e341b80a3fcd94fa69e958116a98b46d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToAnswer: 5
-  timeToShowAnswer: 10
+  timeToAnswer: 15
+  timeToShowAnswer: 5
+  loadNext: 0
   isAnswering: 0
   fillFraction: 0
 --- !u!4 &1309642564
@@ -1348,6 +1349,7 @@ MonoBehaviour:
   - {fileID: 456509817}
   defaultAnswerSprite: {fileID: 21300000, guid: 517a43d546b084a40b8febf1cacdbe1e, type: 3}
   correcAnswerSprite: {fileID: 21300000, guid: 7e1e2e9d0540a49aaa9545a6bd1f689e, type: 3}
+  timerImage: {fileID: 1388189856}
 --- !u!114 &1895805702
 MonoBehaviour:
   m_ObjectHideFlags: 0
